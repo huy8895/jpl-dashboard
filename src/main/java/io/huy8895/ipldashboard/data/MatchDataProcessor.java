@@ -20,6 +20,7 @@ public class MatchDataProcessor implements ItemProcessor<MatchInput, Match> {
                            .playerOfMatch(matchInput.getPlayer_of_match())
                            .tossWinner(matchInput.getToss_winner())
                            .tossDecision(matchInput.getToss_decision())
+                           .matchWinner(matchInput.getWinner())
                            .result(matchInput.getResult())
                            .resultMargin(matchInput.getResult_margin())
                            .umpire1(matchInput.getUmpire1())
